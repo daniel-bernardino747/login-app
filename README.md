@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Authentication Demo
 
-## Getting Started
+Este projeto é uma demonstração simples e robusta de login e autenticação em uma aplicação Next.js, utilizando as melhores práticas e um stack técnico moderno. O objetivo é apresentar habilidades técnicas em gerenciamento de usuários, proteção de rotas e integração com sistemas de autenticação.
 
-First, run the development server:
+## Sumário
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+*   [Visão Geral](#visão-geral)
+*   [Stack Tecnológico](#stack-tecnológico)
+*   [Estrutura do Projeto](#estrutura-do-projeto)
+*   [Funcionalidades](#funcionalidades)
+*   [Configuração e Execução](#configuração-e-execução)
+*   [Variáveis de Ambiente](#variáveis-de-ambiente)
+*   [Testes](#testes)
+*   [Considerações de Segurança](#considerações-de-segurança)
+*   [Acessibilidade](#acessibilidade)
+*   [Otimização de Performance](#otimização-de-performance)
+*   [Licença](#licença)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Visão Geral
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este projeto serve como um boilerplate para implementar autenticação em aplicações Next.js. Ele demonstra como:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+*   Gerenciar o estado de autenticação no lado do cliente e do servidor.
+*   Proteger rotas com base no status de autenticação do usuário.
+*   Utilizar Server Components e Client Components de forma eficaz.
+*   Implementar validação de formulários robusta com Zod e React Hook Form.
+*   Garantir a segurança e a acessibilidade da aplicação.
 
-## Learn More
+## Stack Tecnológico
 
-To learn more about Next.js, take a look at the following resources:
+*   **Next.js (Latest version):** Framework React para aplicações web.
+*   **TypeScript:** Linguagem de programação tipada para maior segurança e manutenibilidade.
+*   **React Server Components:** Para renderização no servidor e otimização de performance.
+*   **Client Components:** Para interatividade e uso de APIs do navegador.
+*   **Server Actions:** Para mutações de dados e lógica de negócios no servidor.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Estrutura do Projeto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+O projeto segue uma estrutura de pastas baseada em funcionalidades, promovendo a separação de preocupações e a manutenibilidade.
