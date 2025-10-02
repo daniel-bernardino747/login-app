@@ -3,6 +3,7 @@ import { Button } from "./ui/button"
 
 export function SignIn({
   provider,
+  children = "Sign In",
   ...props
 }: { provider?: string } & React.ComponentPropsWithRef<typeof Button>) {
   return (
@@ -12,7 +13,7 @@ export function SignIn({
         await signIn(provider)
       }}
     >
-      <Button size="sm" {...props}>Sign In</Button>
+      <Button size="sm" {...props}>{children}</Button>
     </form>
   )
 }

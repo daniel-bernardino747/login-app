@@ -23,6 +23,9 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
       return session
     },
   },
+  pages: {
+    signIn: "/auth/signin",
+  }
 })
 
 declare module "next-auth" {

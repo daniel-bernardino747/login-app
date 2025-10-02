@@ -14,7 +14,7 @@ export async function Header() {
           
       </div>
         ) : (
-<SignIn provider="github" />
+<SignIn />
         )}
     </header>
   );
