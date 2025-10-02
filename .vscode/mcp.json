@@ -10,6 +10,11 @@
     "playwright": {
       "command": "npx",
       "args": ["@playwright/mcp@latest"]
+    },
+    "context7": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp", "--api-key", "ctx7sk-33e4cea6-03a1-4377-ae49-a62e6d4beb97"]
     }
   }
 }
